@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>AMEN</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="assets/SELS Portfolio.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p id="student">Student</p>
+          <h1>3D/2D Drawing and<br />Animation Portfolio</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------- about ----------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assets/K.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+              perferendis nesciunt delectus omnis ab? Similique, maxime. Modi
+              eius quia praesentium explicabo reiciendis esse, quae molestiae
+              dolorum ea odit est facere?
+            </p>
+            <div class="tab-tiles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('Tools')">Tools</p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>2D</span><br />Drawing / Animation</li>
+                <li><span>3D</span><br />Modeling / Animation</li>
+                <li><span>OTHER</span><br />Video editing /Graphics Design</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="tools">
+              <ul>
+                <li><span>2D</span><br />Photoshop / Illustrator</li>
+                <li>
+                  <span>3D</span><br />Blender / After Effects (element3D)
+                </li>
+                <li><span>VIDEO</span><br />After Effects / Premiere Pro</li>
+                <li><span>AUDIO</span><br />Audacity / Blue Yeti</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2020 - 2022</span><br />Self-studying</li>
+                <li>
+                  <span>2022 - 2023</span><br />First year of Art A levels
+                </li>
+                <li>
+                  <span>2023 - 2024</span><br />Second year of Art A levels
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>
